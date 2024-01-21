@@ -1,0 +1,67 @@
+.border{
+    border: 1px  solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.align-item{
+    align-items: center;
+}
+.bg-black{
+    background-color: #121212;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius:8px ;
+    
+}
+.white{
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+.p1{
+    padding: 18px;
+}
+.p2{
+    padding: 10px;
+}
+.m1{
+    margin: 5px;
+}
+
+.pointer{
+    cursor: pointer;
+   
+}
+.width{
+    width: 25px;
+}
+.font-style{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+    font-weight: 700;
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1f1f1f;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777;
+  }
+  
